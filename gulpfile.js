@@ -3,7 +3,7 @@ var sass       = require('gulp-sass'       );
 var minifycss  = require('gulp-csso'       );
 var concat     = require('gulp-concat'     );
 var sourcemaps = require('gulp-sourcemaps' );
-var uglify = require('gulp-uglify');
+var uglify     = require('gulp-uglify'     );
 
 
 gulp.task('sass', function(){
