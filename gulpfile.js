@@ -1,9 +1,9 @@
-var gulp       = require('gulp'            );
-var sass       = require('gulp-sass'       );
-var minifycss  = require('gulp-csso'       );
-var concat     = require('gulp-concat'     );
-var sourcemaps = require('gulp-sourcemaps' );
-var uglify     = require('gulp-uglify'     );
+var gulp       = require('gulp'            ); // Gulp 
+var sass       = require('gulp-sass'       ); // SASS 
+var minifycss  = require('gulp-csso'       ); // Minify CSS files
+var concat     = require('gulp-concat'     ); // Concat file's content
+var sourcemaps = require('gulp-sourcemaps' ); // 
+var uglify     = require('gulp-uglify'     ); // Minify JS files
 
 
 gulp.task('sass', function(){
