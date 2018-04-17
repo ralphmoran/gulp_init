@@ -1,4 +1,9 @@
-.wide{
-    width: percentage(3/7);
-    height: percentage(3/9);
-}
+.title {
+    font-size: 25px;
+    @media (min-width: 800px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 40px;
+    }
+  }
