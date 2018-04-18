@@ -1,2 +1,2 @@
-# gulp-practices
-My Gulp practices. Beginner level
+# Gulp practices
+All in one: watch, concat, minify
