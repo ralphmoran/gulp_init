@@ -2,7 +2,7 @@ var gulp       = require('gulp'            ); // Gulp
 var sass       = require('gulp-sass'       ); // SASS 
 var minifycss  = require('gulp-csso'       ); // Minify CSS files
 var concat     = require('gulp-concat'     ); // Concat file's content
-var sourcemaps = require('gulp-sourcemaps' ); // 
+var sourcemaps = require('gulp-sourcemaps' ); // Load the new file in buffer
 var uglify     = require('gulp-uglify'     ); // Minify JS files
 
 
